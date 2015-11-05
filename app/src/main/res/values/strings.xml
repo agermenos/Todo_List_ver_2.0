@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Todo List ver 2.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="todo_date_pattern">MMM-dd-yyyy</string>
+    <string name="title_activity_todo_list">TodoListActivity</string>
+    <string name="todo_list_created">ToDo has been created</string>
+    <string name="todo_list_updated">ToDo has been updated</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="todo_list_deleted">Todo List deleted</string>
+    <string name="todo_list_not_found">Todo List not found</string>
+</resources>

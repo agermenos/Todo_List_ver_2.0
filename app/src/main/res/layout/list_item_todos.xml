@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for weather forecast list item for future day (not today) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:gravity="left">
+
+        <TextView
+            android:id="@+id/todo_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:attr/textAppearanceListItem"
+            android:text="Move to San Franciso" />
+
+        <TextView
+            android:id="@+id/creation_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:attr/textAppearanceListItem"
+            android:text="10-Jan-2010" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:gravity="right">
+
+        <ImageButton
+            android:id="@+id/edit_icon"
+            android:src="@android:drawable/ic_menu_edit"
+            android:layout_gravity="center"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:focusable="true" />
+
+        <ImageButton
+            android:id="@+id/delete_icon"
+            android:src="@android:drawable/ic_menu_delete"
+            android:layout_gravity="center"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:focusable="true" />
+    </LinearLayout>
+
+</LinearLayout>
